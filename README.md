@@ -5,19 +5,19 @@ The main purpose of the projecc is to see main agricultural products, to estimat
 
 
 # SUMMARY
-Eastern Europe and Central Asia includes 15 countries, 9 of them are post-soviet countries. The list of countries: Belrus, Bulgaria, Czechia, Hungary, Kazakhstan, Kyrgyzstan, Poland, Moldova, Romania, Russian Federation, Slovakia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan. Grouping of these countries to Eastern Europe and Central Asia is made in datasets of FAOSTAT (Food and Agriculture Organization). 
+Eastern Europe and Central Asia includes 15 countries, 9 of them are post-soviet countries. The list of countries: Belarus, Bulgaria, Czechia, Hungary, Kazakhstan, Kyrgyzstan, Poland, Moldova, Romania, Russian Federation, Slovakia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan. Grouping of these countries to Eastern Europe and Central Asia is made in datasets of FAOSTAT (Food and Agriculture Organization). 
 
 For the analysis, data were collected on production, export, and the employment rate in the agricultural sector for each country of the region. Comparative, descriptive, correlational, and retrospective analyzes were carried out based on data from FAOSTAT and World Bank.
 
 
 # INPUT DATA
-There are three input files:
+There are three csv files and one folder for shapefiles:
 1. **FAOSTAT_data_en_production_01_21.csv**, which has detailed information on crops and livestock production quantity of each country of the region for period between 2001-2021.
 2.  **FAOSTAT_data_en_export_01_21.csv** - data on crops and livestok export quantity of each country of the region for period between 2001-2021.
 3.  **API_SL.AGR.EMPL.ZS_DS2_employment.csv** - data on employment rates in agricultural sector of all countries in the world for period between 1991-2019. This data is from World Bank. 
 4. **Shapefiles** folder that contains shapefiles for each country of the region to map analysis results through QGIS. 
 
-During analysis all data will be cleaned up to the required variables for the project purpose.
+During analysis data is cleaned up to the required variables for the project purpose.
 
 
 # ANALYSIS
@@ -91,7 +91,7 @@ Linegraphs in `total_export.png` shows dymanics of agriculture production export
 ## Total data on production and export
 All this data on production and export of EECA (Eastern Europe and Central Asia) countries is saved to a csv file called `total_data_EECA.csv`. 
 
-## The most produced and the most exported product by each country
+## Histograms of the most produced and the most exported product
 `prct_prod_most.png` file shows percentage of the most produced product in agriculture production by each country of the region for 2021. As the histogram displays the countries can be grouped by 4 types of the most produced products. Wheat is the most produced product for 7 countries of the region. Maize corn is the most produced product for 4 countries. Potatoes are for 3 countries, while Sugar beet is the most produced product for only Poland. 
 
 `prct_export_most.png` file demonstrates the percentage of the most exported product in agriculture export by each country of the region for 2021. The interesting thing is that some countries have other product as the most exported than the most produced product. For example, Belarus has the most export of crude canola oil while its the most produced product is potatoes. Poland exports more wheat than sugar beet. And two maize corn countries Moldova and Romania have wheat as the most exported product. 
@@ -112,12 +112,12 @@ There are 7 countries that have strong negative correlation between agriculture 
 
 There are 6 countries that have weak negative correlation between employment rate and production. They are Romania, Slovakia, Czechia, Bulgaria, Hungary, Moldova. Changes in employment rates didn't affect significantly to production amounts.  They have slight increase in production with decreasing employment rate in agriculture. But, Hungary has very weak correlation that can be identified as no correlation between employment rate and production. 
 
-The interesting thing is that there are 2 countries with positive correlation - Poland and Turkmenistan. But Turkmenistan has clear positive correlation between employment rate and production in agriculture sector. It might mean that Turkmenistan's agriculture sector is still more dependent on human labor than technology. Poland's correlation very weak as Hungary's, and it doesn't show any notciable correlation. 
+The interesting thing is that there are 2 countries with positive correlation - Poland and Turkmenistan. But Turkmenistan has clear positive correlation between employment rate and production in agriculture sector. It might mean that Turkmenistan's agriculture sector is still more dependent on human labor than technology. Poland's correlation is very weak as Hungary's, and seems it doesn't show any notciable correlation. 
 
 ## Maps
 There are two maps: `region_map.png` and `the_most_prod_map.png`. 
-1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federatio has a huge territory that is a consiquent cause of the biggest agriculture production. 
-2. Second map `the_most_prod_map.png` displays the most produced product of each country with its value in millions of tons. According to this map, Russia is the biggest producer of wheat in the region. Ukraine is the biggest producer of maize corn.  The biggest producer in potatoes production is Belarus. And, Poland is the first in sugar beet production. Others have also one of these products as the most produced product but in less quantities than above mentioned countries. QGZ files of these maps that contains project files created by QGIS are also located to the repository: `region_map.qgz` and `the_most_prod_map.qgz`.
+1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federation has a huge territory that is a consiquent cause of the biggest agriculture production. 
+2. Second map `the_most_prod_map.png` displays the most produced product of each country with its value in millions of tons. According to this map, Russia is the biggest producer of wheat in the region. Ukraine is the biggest producer of maize corn.  The biggest producer in potatoes production is Belarus. And, Poland is the first in sugar beet production. Others have also one of these products as the most produced product but in less quantities than above mentioned countries. QGZ files of these maps that contain project files created by QGIS are also located to the repository: `region_map.qgz` and `the_most_prod_map.qgz`.
 
 # LINKS TO DATA SOURCES
 Data on production from FAOSTAT: https://www.fao.org/faostat/en/#data/QCL 
