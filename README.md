@@ -122,6 +122,15 @@ The data used for the employment rate graph is from `employment_data.csv` file t
 ## Correlations between employment rate and agriculture production
 15 png files that consist of scater plots and regression lines for ech country's agriculture epmloyment rate with griculture production. Countries can be grouped to 3 groups: with strong negative correlation, with weak negative correlation, and with positive correlation. Points in scatter plot are years that are between 2001-2019. 
 
+***Figure 5: Strong negative correlations***
+ ![corr_analysis_for_Uzbekistan](corr_analysis_for_Uzbekistan.png)
+ ![corr_analysis_for_Ukraine](corr_analysis_for_Ukraine.png)
+ ![corr_analysis_for_Kazakhstan](corr_analysis_for_Kazakhstan.png)
+ ![corr_analysis_for_Kyrgyzstan](corr_analysis_for_Kyrgyzstan.png)
+ ![corr_analysis_for_Russian_Federation](corr_analysis_for_Russian Federation.png)
+ ![corr_analysis_for_Tajikistan](corr_analysis_for_Tajikistan.png)
+ ![corr_analysis_for_Belarus](corr_analysis_for_Belarus.png)
+ 
 There are 7 countries that have strong negative correlation between agriculture employment rate and agriculture production. These countries are Uzbekistan, Ukraine, Kazakhstan, Kyrgyzstan, Russia, Tajikistan, and Belarus. All of them are post-soviet countries. They had high employment rate and low production in the beginning of 2000-s, and these indicators have been changing during time to opposite direction. So, employment rates get lower while production increases. It might be related to intensive implementation of technologies in agriculture that substitute human labor. It needs more research to identify the exact reasons for each country. 
 
 There are 6 countries that have weak negative correlation between employment rate and production. They are Romania, Slovakia, Czechia, Bulgaria, Hungary, Moldova. Changes in employment rates didn't affect significantly to production amounts.  They have slight increase in production with decreasing employment rate in agriculture. But, Hungary has very weak correlation that can be identified as no correlation between employment rate and production. 
@@ -130,13 +139,11 @@ The interesting thing is that there are 2 countries with positive correlation - 
 
 ## Maps
 There are two maps: `region_map.png` and `the_most_prod_map.png`. 
-1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federation has a huge territory that is a consiquent cause of the biggest agriculture production.
-
+1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federation has a huge territory that is a consiquent cause of the biggest agriculture production.        
 ***Map 1: region_map.png***
  ![region_map](region_map.png) 
 
-2. Second map `the_most_prod_map.png` displays the most produced product of each country with its value in millions of tons. According to this map, Russia is the biggest producer of wheat in the region. Ukraine is the biggest producer of maize corn.  The biggest producer in potatoes production is Belarus. And, Poland is the first in sugar beet production. Others have also one of these products as the most produced product but in less quantities than above mentioned countries. QGZ files of these maps that contain project files created by QGIS are also located to the repository: `region_map.qgz` and `the_most_prod_map.qgz`.
-
+2. Second map `the_most_prod_map.png` displays the most produced product of each country with its value in millions of tons. According to this map, Russia is the biggest producer of wheat in the region. Ukraine is the biggest producer of maize corn.  The biggest producer in potatoes production is Belarus. And, Poland is the first in sugar beet production. Others have also one of these products as the most produced product but in less quantities than above mentioned countries. QGZ files of these maps that contain project files created by QGIS are also located to the repository: `region_map.qgz` and `the_most_prod_map.qgz`.       
 ***Map 2: the_most_prod_map.png***
  ![the_most_prod_map](the_most_prod_map.png) 
 
