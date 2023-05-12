@@ -79,30 +79,41 @@ This secttion is made in QGIS application by using shapefiles for countries of t
 The analysis results in 3 csv files, 2 qgz files, 9 png files for the region, and 15 png files on correlation analysis for 15 countries.  
 
 ## Heatmaps on agriculture production
-
-***agriculture_production.png***
+***Figure 1: agriculture_production.png***
  ![agriculture_production](agriculture_production.png)
 Accoridng to heatmap `agriculture_production.png`, Russian federation is the most producer country of agriculture production in the region between 2012-2021 producing on average about 200 millions of tons per year. Then goes Ukraine with the second most agriculture production. Poland closes the top three. Next biggest countries outside of top three are Romania, Kazakhstan, and Uzbekistan. Others have average yearly production no more than 10-15 mln tons. 
 
+***Figure 2: wheat_production.png***
+ ![wheat_production](wheat_production.png)
 Next heatmap `wheat_production.png` shows almost the similar tendency to total production where Russia and Ukraine are the biggest producers of wheat in corresponding order. But the third country in wheat production is now Kazakhstan instead of Poland which was the third for total production. Then Poland and Romania as the next significant wheat producers of the region. 
 
 ## Linegraphs on agriculture export
+***Figure 3: total_export.png***
+ ![total_export](total_export.png)
 Linegraphs in `total_export.png` shows dymanics of agriculture production export by country between 2001-2021. As the graph displays all countries had almost similar export no more than 10 mln tons in 2001, but then Ukraine and Russia started to increase export quantities significantly comparing to others. Ukraine overtakes Russia in export. Next relatively bigger exporters are Poland, Romania, Hungary, and Kazakhstan. One interesting thing in this graph is that Uzbekistan had extremely sharp jump in 2015 reaching almost Russian export quantity but then dropped sharply in 2017. 
 
+***Figure 4: Wheat_export.png***
+ ![Wheat_export](Wheat_export.png)
 `Wheat_export.png` demonstrates dynamics of wheat export by countries between 2001-2021. Russia is the first exporter here, then goes Ukraine. Russia goes down in recent years while Ukraine has gradual increase. Next significant wheat exporters after them are Romania, Bulgaria, and Kazakhstan. 
 
 ## Total data on production and export
 All this data on production and export of EECA (Eastern Europe and Central Asia) countries is saved to a csv file called `total_data_EECA.csv`. 
 
 ## Histograms of the most produced and the most exported product
+***Figure 4: prct_prod_most.png***
+ ![prct_prod_most](prct_prod_most.png)
 `prct_prod_most.png` file shows percentage of the most produced product in agriculture production by each country of the region for 2021. As the histogram displays the countries can be grouped by 4 types of the most produced products. Wheat is the most produced product for 7 countries of the region. Maize corn is the most produced product for 4 countries. Potatoes are for 3 countries, while Sugar beet is the most produced product for only Poland. 
 
+***Figure 4: prct_export_most.png***
+ ![prct_export_most](prct_export_most.png)
 `prct_export_most.png` file demonstrates the percentage of the most exported product in agriculture export by each country of the region for 2021. The interesting thing is that some countries have other product as the most exported than the most produced product. For example, Belarus has the most export of crude canola oil while its the most produced product is potatoes. Poland exports more wheat than sugar beet. And two maize corn countries Moldova and Romania have wheat as the most exported product. 
 
 ## Data on the most produced and exported products
 The data used for graphing the most produced and exported products is from csv file called `the_most_data_2021.csv`. This file is created as a result of 3-script - `3_the_most.py`. 
 
 ## Employment rate
+***Figure 4: employment_rates.png***
+ ![employment_rates](employment_rates.png)
 `employment_rates.png` file consists of dynamics of the employment rate in agriculture sector of each country for 2001-2019. from this graph it is obvious that in which countries agriculture plays main role as people's income source. Tajikistan has the highest employment rate in agriculture for all time among others of the region. As in Tajikistan, in the beginnig of 2000-s Molodva and Romania also had more than 50% employment rate in agriculture. Then they have decreasing of tis rate to the less than 25%. Generally, all countries have a declining tendency in this indicator that might be related to global urbanization process. For 2019, which is the last year in the employment data, Uzbekistan has the second largest employment rate in agriculture. 
 
 ## Data on employment rates
@@ -119,8 +130,13 @@ The interesting thing is that there are 2 countries with positive correlation - 
 
 ## Maps
 There are two maps: `region_map.png` and `the_most_prod_map.png`. 
-1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federation has a huge territory that is a consiquent cause of the biggest agriculture production. 
+1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federation has a huge territory that is a consiquent cause of the biggest agriculture production.
+***Map 1: region_map.png***
+ ![region_map](region_map.png) 
+
 2. Second map `the_most_prod_map.png` displays the most produced product of each country with its value in millions of tons. According to this map, Russia is the biggest producer of wheat in the region. Ukraine is the biggest producer of maize corn.  The biggest producer in potatoes production is Belarus. And, Poland is the first in sugar beet production. Others have also one of these products as the most produced product but in less quantities than above mentioned countries. QGZ files of these maps that contain project files created by QGIS are also located to the repository: `region_map.qgz` and `the_most_prod_map.qgz`.
+***Map 2: the_most_prod_map.png***
+ ![the_most_prod_map](the_most_prod_map.png) 
 
 # LINKS TO DATA SOURCES
 Data on production from FAOSTAT: https://www.fao.org/faostat/en/#data/QCL 
