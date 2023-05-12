@@ -79,6 +79,8 @@ This secttion is made in QGIS application by using shapefiles for countries of t
 The analysis results in 3 csv files, 2 qgz files, 9 png files for the region, and 15 png files on correlation analysis for 15 countries.  
 
 ## Heatmaps on agriculture production
+
+***agriculture_production.png***
  ![agriculture_production](agriculture_production.png)
 Accoridng to heatmap `agriculture_production.png`, Russian federation is the most producer country of agriculture production in the region between 2012-2021 producing on average about 200 millions of tons per year. Then goes Ukraine with the second most agriculture production. Poland closes the top three. Next biggest countries outside of top three are Romania, Kazakhstan, and Uzbekistan. Others have average yearly production no more than 10-15 mln tons. 
 
