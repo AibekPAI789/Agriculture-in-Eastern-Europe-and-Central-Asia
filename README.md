@@ -92,8 +92,8 @@ Next heatmap `wheat_production.png` shows almost the similar tendency to total p
  ![total_export](total_export.png)
 Linegraphs in `total_export.png` shows dymanics of agriculture production export by country between 2001-2021. As the graph displays all countries had almost similar export no more than 10 mln tons in 2001, but then Ukraine and Russia started to increase export quantities significantly comparing to others. Ukraine overtakes Russia in export. Next relatively bigger exporters are Poland, Romania, Hungary, and Kazakhstan. One interesting thing in this graph is that Uzbekistan had extremely sharp jump in 2015 reaching almost Russian export quantity but then dropped sharply in 2017. 
 
-***Figure 4: Wheat_export.png***
- ![Wheat_export](Wheat_export.png)
+***Figure 4: wheat_export.png***
+ ![wheat_export](wheat_export.png)
 `Wheat_export.png` demonstrates dynamics of wheat export by countries between 2001-2021. Russia is the first exporter here, then goes Ukraine. Russia goes down in recent years while Ukraine has gradual increase. Next significant wheat exporters after them are Romania, Bulgaria, and Kazakhstan. 
 
 ## Total data on production and export
@@ -131,10 +131,12 @@ The interesting thing is that there are 2 countries with positive correlation - 
 ## Maps
 There are two maps: `region_map.png` and `the_most_prod_map.png`. 
 1. First map `region_map.png` just shows territories of each country of the region to understand their land size. Land size is an important factor for agriculture. As it can be seen from map Russian Federation has a huge territory that is a consiquent cause of the biggest agriculture production.
+
 ***Map 1: region_map.png***
  ![region_map](region_map.png) 
 
 2. Second map `the_most_prod_map.png` displays the most produced product of each country with its value in millions of tons. According to this map, Russia is the biggest producer of wheat in the region. Ukraine is the biggest producer of maize corn.  The biggest producer in potatoes production is Belarus. And, Poland is the first in sugar beet production. Others have also one of these products as the most produced product but in less quantities than above mentioned countries. QGZ files of these maps that contain project files created by QGIS are also located to the repository: `region_map.qgz` and `the_most_prod_map.qgz`.
+
 ***Map 2: the_most_prod_map.png***
  ![the_most_prod_map](the_most_prod_map.png) 
 
